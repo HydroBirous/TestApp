@@ -190,11 +190,9 @@ android {
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
     implementation "com.facebook.react:react-native:+"                      // node_modules
-
     implementation 'com.google.android.gms:play-services-auth:17.0.0'       // firebase - google-services
     implementation "com.google.firebase:firebase-core:16.0.9"               // firebase - core
     implementation 'com.google.firebase:firebase-auth:19.0.0'               // firebase - authentication
-
 
     if (enableHermes) {
       def hermesPath = "../../node_modules/hermesvm/android/";

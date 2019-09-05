@@ -14,7 +14,7 @@ import HeaderComponent from 'TestApp/src/components/navigations/drawers/HeaderCo
 import { A, B, C, D } from 'TestApp/src/data/screens/DrawerScreenName';
 
 const icon1 = 'TestApp/src/assets/icons/iron-man-icon.png';
-const buttonImage1 = 'TestApp/src/assets/icons/button.png';
+const buttonImage1 = 'TestApp/src/assets/icons/blue-square-button.png';
 
 export default class AComponent extends Component {
 	static navigationOptions = ({ navigation }) => {

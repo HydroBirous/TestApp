@@ -1,5 +1,6 @@
 import { Dimensions } from 'react-native';
-import { createDrawerNavigator, createAppContainer } from 'react-navigation';
+import { createAppContainer } from 'react-navigation';
+import { createDrawerNavigator } from 'react-navigation-drawer';
 
 import AComponent from 'TestApp/src/components/navigations/drawers/AComponent';
 import BComponent from 'TestApp/src/components/navigations/drawers/BComponent';

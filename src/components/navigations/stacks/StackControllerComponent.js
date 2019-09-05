@@ -1,4 +1,5 @@
-import { createStackNavigator, createAppContainer } from 'react-navigation';
+import { createAppContainer } from 'react-navigation';
+import { createStackNavigator } from 'react-navigation-stack';
 
 import MainComponent from 'TestApp/src/components/navigations/stacks/MainComponent';
 import DetailComponent from 'TestApp/src/components/navigations/stacks/DetailComponent';

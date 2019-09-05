@@ -1,4 +1,5 @@
-import { createMaterialTopTabNavigator, createAppContainer } from 'react-navigation';
+import { createAppContainer } from 'react-navigation';
+import { createMaterialTopTabNavigator } from 'react-navigation-tabs';
 
 import HomeComponent from 'TestApp/src/components/navigations/tabs/HomeComponent';
 import InfoComponent from 'TestApp/src/components/navigations/tabs/InfoComponent';
