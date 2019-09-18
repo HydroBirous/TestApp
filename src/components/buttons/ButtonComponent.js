@@ -57,7 +57,7 @@ export default class ButtonComponent extends Component {
 							height: this.checkNull(this.props.btnHeight, 'auto'),
 							backgroundColor: this.checkNull(this.props.btnColor, 'royalblue'),
 							borderWidth: this.checkNull(this.props.borWidth, 0),
-							borderColor: this.checkNull(this.props.borColor, 'tomato'),
+							borderColor: this.checkNull(this.props.borColor, 'black'),
 							borderRadius: this.checkNull(this.props.borRadius, 0)
 						}}>
 						<View
@@ -84,7 +84,7 @@ export default class ButtonComponent extends Component {
 									color: this.checkNull(this.props.textColor, 'white'),
 									marginTop: this.checkNull(this.props.textMarginTop, 0),
 									marginLeft: this.checkNull(this.props.textMarginLeft, 0),
-									padding: this.checkNull(this.props.textPadding, 5)
+									padding: this.checkNull(this.props.textPadding, 0)
 								}}>
 								{this.checkNull(this.props.textValue, 'Nút Tự Chế')}
 							</Text>

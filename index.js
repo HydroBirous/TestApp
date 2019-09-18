@@ -10,10 +10,11 @@ import { name as appName } from './app.json';
 //import TextInputComponent from 'TestApp/src/components/textinputs/TextInputComponent';
 //import ScrollViewComponent from 'TestApp/src/components/scrollviews/ScrollViewComponent';
 
-//import DrawerControllerComponent from 'TestApp/src/components/navigations/drawers/DrawerControllerComponent';
-//import StackControllerComponent from 'TestApp/src/components/navigations/stacks/StackControllerComponent';
-import TabControllerComponent from 'TestApp/src/components/navigations/tabs/TabControllerComponent';
+//import AppController from './src/navigations/switch/AppController';
+import DrawerControllerComponent from './src/navigations/switch/appDrawer/DrawerControllerComponent';
 
 //import LoginComponent from 'TestApp/src/components/firebase/authentications/LoginComponent';
 
-AppRegistry.registerComponent(appName, () => TabControllerComponent);
+//import FlatListComponent from './src/components/lists/flatLists/FlatListComponent';
+
+AppRegistry.registerComponent(appName, () => DrawerControllerComponent);

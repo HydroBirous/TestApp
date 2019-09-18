@@ -1,6 +1,6 @@
-const Home = 'Home';
-const Info = 'Info';
-const Settings = 'Settings';
-const Cloud = 'Cloud';
+const First = 'First';
+const Second = 'Second';
+const Third = 'Third';
+const Fourth = 'Fourth';
 
-export { Home, Info, Settings, Cloud };
+export { First, Second, Third, Fourth };

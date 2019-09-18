@@ -79,9 +79,9 @@ export default class ImageButtonComponent extends Component {
 										fontSize: this.checkNull(this.props.textSize, 16),
 										fontWeight: this.checkNull(this.props.textWeight, 'normal'),
 										color: this.checkNull(this.props.textColor, 'white'),
-										marginTop: this.checkNull(this.props.textMarginTop, 11),
+										marginTop: this.checkNull(this.props.textMarginTop, 0),
 										marginLeft: this.checkNull(this.props.textMarginLeft, 0),
-										padding: this.checkNull(this.props.textPadding, 5)
+										padding: this.checkNull(this.props.textPadding, 0)
 									}}>
 									{this.checkNull(this.props.textValue, 'Nút Có Hình')}
 								</Text>
